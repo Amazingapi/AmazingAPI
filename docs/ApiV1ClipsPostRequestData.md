@@ -1,4 +1,4 @@
-# TestDddSdk.ApiV1ClipsPostRequestData
+# AmazingApiRestApiSdk.ApiV1ClipsPostRequestData
 
 ## Properties
 

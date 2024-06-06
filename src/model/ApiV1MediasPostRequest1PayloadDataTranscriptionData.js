@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
  * The ApiV1MediasPostRequest1PayloadDataTranscriptionData model module.
  * @module model/ApiV1MediasPostRequest1PayloadDataTranscriptionData
- * @version 1.0.0
+ * @version 1.0.1
  */
 class ApiV1MediasPostRequest1PayloadDataTranscriptionData {
     /**

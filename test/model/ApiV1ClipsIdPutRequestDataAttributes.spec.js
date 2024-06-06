@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.TestDddSdk);
+    factory(root.expect, root.AmazingApiRestApiSdk);
   }
-}(this, function(expect, TestDddSdk) {
+}(this, function(expect, AmazingApiRestApiSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new TestDddSdk.ApiV1ClipsIdPutRequestDataAttributes();
+    instance = new AmazingApiRestApiSdk.ApiV1ClipsIdPutRequestDataAttributes();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,25 +50,25 @@
   describe('ApiV1ClipsIdPutRequestDataAttributes', function() {
     it('should create an instance of ApiV1ClipsIdPutRequestDataAttributes', function() {
       // uncomment below and update the code to test ApiV1ClipsIdPutRequestDataAttributes
-      //var instance = new TestDddSdk.ApiV1ClipsIdPutRequestDataAttributes();
-      //expect(instance).to.be.a(TestDddSdk.ApiV1ClipsIdPutRequestDataAttributes);
+      //var instance = new AmazingApiRestApiSdk.ApiV1ClipsIdPutRequestDataAttributes();
+      //expect(instance).to.be.a(AmazingApiRestApiSdk.ApiV1ClipsIdPutRequestDataAttributes);
     });
 
     it('should have the property endTime (base name: "end_time")', function() {
       // uncomment below and update the code to test the property endTime
-      //var instance = new TestDddSdk.ApiV1ClipsIdPutRequestDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1ClipsIdPutRequestDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property name (base name: "name")', function() {
       // uncomment below and update the code to test the property name
-      //var instance = new TestDddSdk.ApiV1ClipsIdPutRequestDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1ClipsIdPutRequestDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property startTime (base name: "start_time")', function() {
       // uncomment below and update the code to test the property startTime
-      //var instance = new TestDddSdk.ApiV1ClipsIdPutRequestDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1ClipsIdPutRequestDataAttributes();
       //expect(instance).to.be();
     });
 

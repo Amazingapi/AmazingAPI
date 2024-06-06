@@ -1,4 +1,4 @@
-# TestDddSdk.ApiV1MediasPostRequest1PayloadDataRelationshipsClips
+# AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataRelationshipsClips
 
 ## Properties
 

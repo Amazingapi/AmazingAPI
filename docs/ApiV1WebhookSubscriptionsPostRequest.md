@@ -1,4 +1,4 @@
-# TestDddSdk.ApiV1WebhookSubscriptionsPostRequest
+# AmazingApiRestApiSdk.ApiV1WebhookSubscriptionsPostRequest
 
 ## Properties
 

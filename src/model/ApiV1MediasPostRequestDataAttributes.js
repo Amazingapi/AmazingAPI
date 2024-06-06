@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
  * The ApiV1MediasPostRequestDataAttributes model module.
  * @module model/ApiV1MediasPostRequestDataAttributes
- * @version 1.0.0
+ * @version 1.0.1
  */
 class ApiV1MediasPostRequestDataAttributes {
     /**

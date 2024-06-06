@@ -1,4 +1,4 @@
-# TestDddSdk.DefaultApi
+# AmazingApiRestApiSdk.DefaultApi
 
 All URIs are relative to *https://api.contentgroove.com*
 
@@ -31,15 +31,15 @@ list clips
 ### Example
 
 ```javascript
-import TestDddSdk from 'test_ddd_sdk';
-let defaultClient = TestDddSdk.ApiClient.instance;
+import AmazingApiRestApiSdk from 'amazing_api_rest_api_sdk';
+let defaultClient = AmazingApiRestApiSdk.ApiClient.instance;
 // Configure API key authorization: BearerHeader
 let BearerHeader = defaultClient.authentications['BearerHeader'];
 BearerHeader.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //BearerHeader.apiKeyPrefix = 'Token';
 
-let apiInstance = new TestDddSdk.DefaultApi();
+let apiInstance = new AmazingApiRestApiSdk.DefaultApi();
 let opts = {
   'filter': {
   "filter[name_eq]": "john h. glenn, kindly air force base hospital",
@@ -91,15 +91,15 @@ delete clip
 ### Example
 
 ```javascript
-import TestDddSdk from 'test_ddd_sdk';
-let defaultClient = TestDddSdk.ApiClient.instance;
+import AmazingApiRestApiSdk from 'amazing_api_rest_api_sdk';
+let defaultClient = AmazingApiRestApiSdk.ApiClient.instance;
 // Configure API key authorization: BearerHeader
 let BearerHeader = defaultClient.authentications['BearerHeader'];
 BearerHeader.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //BearerHeader.apiKeyPrefix = 'Token';
 
-let apiInstance = new TestDddSdk.DefaultApi();
+let apiInstance = new AmazingApiRestApiSdk.DefaultApi();
 let id = "id_example"; // String | The id of the clip to be retrieved
 apiInstance.apiV1ClipsIdDelete(id).then(() => {
   console.log('API called successfully.');
@@ -139,15 +139,15 @@ show clip
 ### Example
 
 ```javascript
-import TestDddSdk from 'test_ddd_sdk';
-let defaultClient = TestDddSdk.ApiClient.instance;
+import AmazingApiRestApiSdk from 'amazing_api_rest_api_sdk';
+let defaultClient = AmazingApiRestApiSdk.ApiClient.instance;
 // Configure API key authorization: BearerHeader
 let BearerHeader = defaultClient.authentications['BearerHeader'];
 BearerHeader.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //BearerHeader.apiKeyPrefix = 'Token';
 
-let apiInstance = new TestDddSdk.DefaultApi();
+let apiInstance = new AmazingApiRestApiSdk.DefaultApi();
 let id = "id_example"; // String | The id of the clip to be retrieved
 apiInstance.apiV1ClipsIdGet(id).then(() => {
   console.log('API called successfully.');
@@ -187,17 +187,17 @@ update clip
 ### Example
 
 ```javascript
-import TestDddSdk from 'test_ddd_sdk';
-let defaultClient = TestDddSdk.ApiClient.instance;
+import AmazingApiRestApiSdk from 'amazing_api_rest_api_sdk';
+let defaultClient = AmazingApiRestApiSdk.ApiClient.instance;
 // Configure API key authorization: BearerHeader
 let BearerHeader = defaultClient.authentications['BearerHeader'];
 BearerHeader.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //BearerHeader.apiKeyPrefix = 'Token';
 
-let apiInstance = new TestDddSdk.DefaultApi();
+let apiInstance = new AmazingApiRestApiSdk.DefaultApi();
 let id = "id_example"; // String | The id of the clip to be retrieved
-let apiV1ClipsIdPutRequest = new TestDddSdk.ApiV1ClipsIdPutRequest(); // ApiV1ClipsIdPutRequest | 
+let apiV1ClipsIdPutRequest = new AmazingApiRestApiSdk.ApiV1ClipsIdPutRequest(); // ApiV1ClipsIdPutRequest | 
 apiInstance.apiV1ClipsIdPut(id, apiV1ClipsIdPutRequest).then(() => {
   console.log('API called successfully.');
 }, (error) => {
@@ -237,16 +237,16 @@ create clip
 ### Example
 
 ```javascript
-import TestDddSdk from 'test_ddd_sdk';
-let defaultClient = TestDddSdk.ApiClient.instance;
+import AmazingApiRestApiSdk from 'amazing_api_rest_api_sdk';
+let defaultClient = AmazingApiRestApiSdk.ApiClient.instance;
 // Configure API key authorization: BearerHeader
 let BearerHeader = defaultClient.authentications['BearerHeader'];
 BearerHeader.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //BearerHeader.apiKeyPrefix = 'Token';
 
-let apiInstance = new TestDddSdk.DefaultApi();
-let apiV1ClipsPostRequest = new TestDddSdk.ApiV1ClipsPostRequest(); // ApiV1ClipsPostRequest | 
+let apiInstance = new AmazingApiRestApiSdk.DefaultApi();
+let apiV1ClipsPostRequest = new AmazingApiRestApiSdk.ApiV1ClipsPostRequest(); // ApiV1ClipsPostRequest | 
 apiInstance.apiV1ClipsPost(apiV1ClipsPostRequest).then(() => {
   console.log('API called successfully.');
 }, (error) => {
@@ -285,15 +285,15 @@ prepare presigned upload url
 ### Example
 
 ```javascript
-import TestDddSdk from 'test_ddd_sdk';
-let defaultClient = TestDddSdk.ApiClient.instance;
+import AmazingApiRestApiSdk from 'amazing_api_rest_api_sdk';
+let defaultClient = AmazingApiRestApiSdk.ApiClient.instance;
 // Configure API key authorization: BearerHeader
 let BearerHeader = defaultClient.authentications['BearerHeader'];
 BearerHeader.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //BearerHeader.apiKeyPrefix = 'Token';
 
-let apiInstance = new TestDddSdk.DefaultApi();
+let apiInstance = new AmazingApiRestApiSdk.DefaultApi();
 apiInstance.apiV1DirectUploadsGet().then(() => {
   console.log('API called successfully.');
 }, (error) => {
@@ -329,15 +329,15 @@ list medias
 ### Example
 
 ```javascript
-import TestDddSdk from 'test_ddd_sdk';
-let defaultClient = TestDddSdk.ApiClient.instance;
+import AmazingApiRestApiSdk from 'amazing_api_rest_api_sdk';
+let defaultClient = AmazingApiRestApiSdk.ApiClient.instance;
 // Configure API key authorization: BearerHeader
 let BearerHeader = defaultClient.authentications['BearerHeader'];
 BearerHeader.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //BearerHeader.apiKeyPrefix = 'Token';
 
-let apiInstance = new TestDddSdk.DefaultApi();
+let apiInstance = new AmazingApiRestApiSdk.DefaultApi();
 let opts = {
   'filter': {
   "filter[name_eq]": "chimp into space",
@@ -389,15 +389,15 @@ delete media
 ### Example
 
 ```javascript
-import TestDddSdk from 'test_ddd_sdk';
-let defaultClient = TestDddSdk.ApiClient.instance;
+import AmazingApiRestApiSdk from 'amazing_api_rest_api_sdk';
+let defaultClient = AmazingApiRestApiSdk.ApiClient.instance;
 // Configure API key authorization: BearerHeader
 let BearerHeader = defaultClient.authentications['BearerHeader'];
 BearerHeader.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //BearerHeader.apiKeyPrefix = 'Token';
 
-let apiInstance = new TestDddSdk.DefaultApi();
+let apiInstance = new AmazingApiRestApiSdk.DefaultApi();
 let id = "id_example"; // String | id
 apiInstance.apiV1MediasIdDelete(id).then(() => {
   console.log('API called successfully.');
@@ -437,15 +437,15 @@ show media
 ### Example
 
 ```javascript
-import TestDddSdk from 'test_ddd_sdk';
-let defaultClient = TestDddSdk.ApiClient.instance;
+import AmazingApiRestApiSdk from 'amazing_api_rest_api_sdk';
+let defaultClient = AmazingApiRestApiSdk.ApiClient.instance;
 // Configure API key authorization: BearerHeader
 let BearerHeader = defaultClient.authentications['BearerHeader'];
 BearerHeader.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //BearerHeader.apiKeyPrefix = 'Token';
 
-let apiInstance = new TestDddSdk.DefaultApi();
+let apiInstance = new AmazingApiRestApiSdk.DefaultApi();
 let id = "id_example"; // String | id
 apiInstance.apiV1MediasIdGet(id).then(() => {
   console.log('API called successfully.');
@@ -485,17 +485,17 @@ update media
 ### Example
 
 ```javascript
-import TestDddSdk from 'test_ddd_sdk';
-let defaultClient = TestDddSdk.ApiClient.instance;
+import AmazingApiRestApiSdk from 'amazing_api_rest_api_sdk';
+let defaultClient = AmazingApiRestApiSdk.ApiClient.instance;
 // Configure API key authorization: BearerHeader
 let BearerHeader = defaultClient.authentications['BearerHeader'];
 BearerHeader.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //BearerHeader.apiKeyPrefix = 'Token';
 
-let apiInstance = new TestDddSdk.DefaultApi();
+let apiInstance = new AmazingApiRestApiSdk.DefaultApi();
 let id = "id_example"; // String | id
-let apiV1MediasIdPutRequest = new TestDddSdk.ApiV1MediasIdPutRequest(); // ApiV1MediasIdPutRequest | 
+let apiV1MediasIdPutRequest = new AmazingApiRestApiSdk.ApiV1MediasIdPutRequest(); // ApiV1MediasIdPutRequest | 
 apiInstance.apiV1MediasIdPut(id, apiV1MediasIdPutRequest).then(() => {
   console.log('API called successfully.');
 }, (error) => {
@@ -535,16 +535,16 @@ create media
 ### Example
 
 ```javascript
-import TestDddSdk from 'test_ddd_sdk';
-let defaultClient = TestDddSdk.ApiClient.instance;
+import AmazingApiRestApiSdk from 'amazing_api_rest_api_sdk';
+let defaultClient = AmazingApiRestApiSdk.ApiClient.instance;
 // Configure API key authorization: BearerHeader
 let BearerHeader = defaultClient.authentications['BearerHeader'];
 BearerHeader.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //BearerHeader.apiKeyPrefix = 'Token';
 
-let apiInstance = new TestDddSdk.DefaultApi();
-let apiV1MediasPostRequest = new TestDddSdk.ApiV1MediasPostRequest(); // ApiV1MediasPostRequest | 
+let apiInstance = new AmazingApiRestApiSdk.DefaultApi();
+let apiV1MediasPostRequest = new AmazingApiRestApiSdk.ApiV1MediasPostRequest(); // ApiV1MediasPostRequest | 
 apiInstance.apiV1MediasPost(apiV1MediasPostRequest).then(() => {
   console.log('API called successfully.');
 }, (error) => {
@@ -583,15 +583,15 @@ list webhook subscriptions
 ### Example
 
 ```javascript
-import TestDddSdk from 'test_ddd_sdk';
-let defaultClient = TestDddSdk.ApiClient.instance;
+import AmazingApiRestApiSdk from 'amazing_api_rest_api_sdk';
+let defaultClient = AmazingApiRestApiSdk.ApiClient.instance;
 // Configure API key authorization: BearerHeader
 let BearerHeader = defaultClient.authentications['BearerHeader'];
 BearerHeader.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //BearerHeader.apiKeyPrefix = 'Token';
 
-let apiInstance = new TestDddSdk.DefaultApi();
+let apiInstance = new AmazingApiRestApiSdk.DefaultApi();
 let opts = {
   'filter': {
   "filter[name_eq]": "chimp into space"
@@ -637,15 +637,15 @@ delete webhook subscription
 ### Example
 
 ```javascript
-import TestDddSdk from 'test_ddd_sdk';
-let defaultClient = TestDddSdk.ApiClient.instance;
+import AmazingApiRestApiSdk from 'amazing_api_rest_api_sdk';
+let defaultClient = AmazingApiRestApiSdk.ApiClient.instance;
 // Configure API key authorization: BearerHeader
 let BearerHeader = defaultClient.authentications['BearerHeader'];
 BearerHeader.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //BearerHeader.apiKeyPrefix = 'Token';
 
-let apiInstance = new TestDddSdk.DefaultApi();
+let apiInstance = new AmazingApiRestApiSdk.DefaultApi();
 let id = "id_example"; // String | The id of the webhook subscription to be retrieved
 apiInstance.apiV1WebhookSubscriptionsIdDelete(id).then(() => {
   console.log('API called successfully.');
@@ -685,15 +685,15 @@ show webhook subscription
 ### Example
 
 ```javascript
-import TestDddSdk from 'test_ddd_sdk';
-let defaultClient = TestDddSdk.ApiClient.instance;
+import AmazingApiRestApiSdk from 'amazing_api_rest_api_sdk';
+let defaultClient = AmazingApiRestApiSdk.ApiClient.instance;
 // Configure API key authorization: BearerHeader
 let BearerHeader = defaultClient.authentications['BearerHeader'];
 BearerHeader.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //BearerHeader.apiKeyPrefix = 'Token';
 
-let apiInstance = new TestDddSdk.DefaultApi();
+let apiInstance = new AmazingApiRestApiSdk.DefaultApi();
 let id = "id_example"; // String | The id of the webhook subscription to be retrieved
 apiInstance.apiV1WebhookSubscriptionsIdGet(id).then(() => {
   console.log('API called successfully.');
@@ -733,16 +733,16 @@ create webhook subscription
 ### Example
 
 ```javascript
-import TestDddSdk from 'test_ddd_sdk';
-let defaultClient = TestDddSdk.ApiClient.instance;
+import AmazingApiRestApiSdk from 'amazing_api_rest_api_sdk';
+let defaultClient = AmazingApiRestApiSdk.ApiClient.instance;
 // Configure API key authorization: BearerHeader
 let BearerHeader = defaultClient.authentications['BearerHeader'];
 BearerHeader.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //BearerHeader.apiKeyPrefix = 'Token';
 
-let apiInstance = new TestDddSdk.DefaultApi();
-let apiV1WebhookSubscriptionsPostRequest = new TestDddSdk.ApiV1WebhookSubscriptionsPostRequest(); // ApiV1WebhookSubscriptionsPostRequest | 
+let apiInstance = new AmazingApiRestApiSdk.DefaultApi();
+let apiV1WebhookSubscriptionsPostRequest = new AmazingApiRestApiSdk.ApiV1WebhookSubscriptionsPostRequest(); // ApiV1WebhookSubscriptionsPostRequest | 
 apiInstance.apiV1WebhookSubscriptionsPost(apiV1WebhookSubscriptionsPostRequest).then(() => {
   console.log('API called successfully.');
 }, (error) => {

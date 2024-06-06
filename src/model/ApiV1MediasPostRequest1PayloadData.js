@@ -19,7 +19,7 @@ import ApiV1MediasPostRequest1PayloadDataTranscription from './ApiV1MediasPostRe
 /**
  * The ApiV1MediasPostRequest1PayloadData model module.
  * @module model/ApiV1MediasPostRequest1PayloadData
- * @version 1.0.0
+ * @version 1.0.1
  */
 class ApiV1MediasPostRequest1PayloadData {
     /**

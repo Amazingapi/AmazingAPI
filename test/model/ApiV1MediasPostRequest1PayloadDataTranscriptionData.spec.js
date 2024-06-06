@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.TestDddSdk);
+    factory(root.expect, root.AmazingApiRestApiSdk);
   }
-}(this, function(expect, TestDddSdk) {
+}(this, function(expect, AmazingApiRestApiSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataTranscriptionData();
+    instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataTranscriptionData();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,19 +50,19 @@
   describe('ApiV1MediasPostRequest1PayloadDataTranscriptionData', function() {
     it('should create an instance of ApiV1MediasPostRequest1PayloadDataTranscriptionData', function() {
       // uncomment below and update the code to test ApiV1MediasPostRequest1PayloadDataTranscriptionData
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataTranscriptionData();
-      //expect(instance).to.be.a(TestDddSdk.ApiV1MediasPostRequest1PayloadDataTranscriptionData);
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataTranscriptionData();
+      //expect(instance).to.be.a(AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataTranscriptionData);
     });
 
     it('should have the property id (base name: "id")', function() {
       // uncomment below and update the code to test the property id
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataTranscriptionData();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataTranscriptionData();
       //expect(instance).to.be();
     });
 
     it('should have the property type (base name: "type")', function() {
       // uncomment below and update the code to test the property type
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataTranscriptionData();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataTranscriptionData();
       //expect(instance).to.be();
     });
 

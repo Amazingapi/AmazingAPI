@@ -18,7 +18,7 @@ import OneOf from './OneOf';
 /**
  * The ApiV1MediasPostRequest1Payload model module.
  * @module model/ApiV1MediasPostRequest1Payload
- * @version 1.0.0
+ * @version 1.0.1
  */
 class ApiV1MediasPostRequest1Payload {
     /**

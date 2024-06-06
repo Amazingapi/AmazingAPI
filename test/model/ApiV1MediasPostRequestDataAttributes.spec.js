@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.TestDddSdk);
+    factory(root.expect, root.AmazingApiRestApiSdk);
   }
-}(this, function(expect, TestDddSdk) {
+}(this, function(expect, AmazingApiRestApiSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new TestDddSdk.ApiV1MediasPostRequestDataAttributes();
+    instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequestDataAttributes();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,31 +50,31 @@
   describe('ApiV1MediasPostRequestDataAttributes', function() {
     it('should create an instance of ApiV1MediasPostRequestDataAttributes', function() {
       // uncomment below and update the code to test ApiV1MediasPostRequestDataAttributes
-      //var instance = new TestDddSdk.ApiV1MediasPostRequestDataAttributes();
-      //expect(instance).to.be.a(TestDddSdk.ApiV1MediasPostRequestDataAttributes);
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequestDataAttributes();
+      //expect(instance).to.be.a(AmazingApiRestApiSdk.ApiV1MediasPostRequestDataAttributes);
     });
 
     it('should have the property description (base name: "description")', function() {
       // uncomment below and update the code to test the property description
-      //var instance = new TestDddSdk.ApiV1MediasPostRequestDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequestDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property name (base name: "name")', function() {
       // uncomment below and update the code to test the property name
-      //var instance = new TestDddSdk.ApiV1MediasPostRequestDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequestDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property sourceUrl (base name: "source_url")', function() {
       // uncomment below and update the code to test the property sourceUrl
-      //var instance = new TestDddSdk.ApiV1MediasPostRequestDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequestDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property uploadId (base name: "upload_id")', function() {
       // uncomment below and update the code to test the property uploadId
-      //var instance = new TestDddSdk.ApiV1MediasPostRequestDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequestDataAttributes();
       //expect(instance).to.be();
     });
 

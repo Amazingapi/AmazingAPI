@@ -1,4 +1,4 @@
-# TestDddSdk.ApiV1MediasIdPutRequestDataAttributes
+# AmazingApiRestApiSdk.ApiV1MediasIdPutRequestDataAttributes
 
 ## Properties
 

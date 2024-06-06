@@ -1,4 +1,4 @@
-# TestDddSdk.ApiV1MediasPostRequest1PayloadData
+# AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadData
 
 ## Properties
 

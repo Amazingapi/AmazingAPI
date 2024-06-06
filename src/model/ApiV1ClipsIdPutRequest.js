@@ -17,7 +17,7 @@ import ApiV1ClipsIdPutRequestData from './ApiV1ClipsIdPutRequestData';
 /**
  * The ApiV1ClipsIdPutRequest model module.
  * @module model/ApiV1ClipsIdPutRequest
- * @version 1.0.0
+ * @version 1.0.1
  */
 class ApiV1ClipsIdPutRequest {
     /**

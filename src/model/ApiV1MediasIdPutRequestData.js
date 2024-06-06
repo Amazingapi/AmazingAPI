@@ -17,7 +17,7 @@ import ApiV1MediasIdPutRequestDataAttributes from './ApiV1MediasIdPutRequestData
 /**
  * The ApiV1MediasIdPutRequestData model module.
  * @module model/ApiV1MediasIdPutRequestData
- * @version 1.0.0
+ * @version 1.0.1
  */
 class ApiV1MediasIdPutRequestData {
     /**

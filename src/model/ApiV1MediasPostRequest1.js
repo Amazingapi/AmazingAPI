@@ -17,7 +17,7 @@ import ApiV1MediasPostRequest1Payload from './ApiV1MediasPostRequest1Payload';
 /**
  * The ApiV1MediasPostRequest1 model module.
  * @module model/ApiV1MediasPostRequest1
- * @version 1.0.0
+ * @version 1.0.1
  */
 class ApiV1MediasPostRequest1 {
     /**

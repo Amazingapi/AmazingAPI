@@ -17,7 +17,7 @@ import ApiV1WebhookSubscriptionsPostRequestData from './ApiV1WebhookSubscription
 /**
  * The ApiV1WebhookSubscriptionsPostRequest model module.
  * @module model/ApiV1WebhookSubscriptionsPostRequest
- * @version 1.0.0
+ * @version 1.0.1
  */
 class ApiV1WebhookSubscriptionsPostRequest {
     /**

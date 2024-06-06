@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.TestDddSdk);
+    factory(root.expect, root.AmazingApiRestApiSdk);
   }
-}(this, function(expect, TestDddSdk) {
+}(this, function(expect, AmazingApiRestApiSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new TestDddSdk.ApiV1WebhookSubscriptionsPostRequestData();
+    instance = new AmazingApiRestApiSdk.ApiV1WebhookSubscriptionsPostRequestData();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,13 +50,13 @@
   describe('ApiV1WebhookSubscriptionsPostRequestData', function() {
     it('should create an instance of ApiV1WebhookSubscriptionsPostRequestData', function() {
       // uncomment below and update the code to test ApiV1WebhookSubscriptionsPostRequestData
-      //var instance = new TestDddSdk.ApiV1WebhookSubscriptionsPostRequestData();
-      //expect(instance).to.be.a(TestDddSdk.ApiV1WebhookSubscriptionsPostRequestData);
+      //var instance = new AmazingApiRestApiSdk.ApiV1WebhookSubscriptionsPostRequestData();
+      //expect(instance).to.be.a(AmazingApiRestApiSdk.ApiV1WebhookSubscriptionsPostRequestData);
     });
 
     it('should have the property attributes (base name: "attributes")', function() {
       // uncomment below and update the code to test the property attributes
-      //var instance = new TestDddSdk.ApiV1WebhookSubscriptionsPostRequestData();
+      //var instance = new AmazingApiRestApiSdk.ApiV1WebhookSubscriptionsPostRequestData();
       //expect(instance).to.be();
     });
 

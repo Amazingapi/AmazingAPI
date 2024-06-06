@@ -1,4 +1,4 @@
-# TestDddSdk.ApiV1ClipsIdPutRequestDataAttributes
+# AmazingApiRestApiSdk.ApiV1ClipsIdPutRequestDataAttributes
 
 ## Properties
 

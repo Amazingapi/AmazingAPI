@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
  * The ApiV1WebhookSubscriptionsPostRequestDataAttributes model module.
  * @module model/ApiV1WebhookSubscriptionsPostRequestDataAttributes
- * @version 1.0.0
+ * @version 1.0.1
  */
 class ApiV1WebhookSubscriptionsPostRequestDataAttributes {
     /**

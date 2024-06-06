@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
  * The ApiV1ClipsIdPutRequestDataAttributes model module.
  * @module model/ApiV1ClipsIdPutRequestDataAttributes
- * @version 1.0.0
+ * @version 1.0.1
  */
 class ApiV1ClipsIdPutRequestDataAttributes {
     /**

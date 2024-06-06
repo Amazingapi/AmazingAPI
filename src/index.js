@@ -46,9 +46,9 @@ import DefaultApi from './api/DefaultApi';
 * <p>
 * An AMD (recommended!) or CommonJS application will generally do something equivalent to the following:
 * <pre>
-* var TestDddSdk = require('index'); // See note below*.
-* var xxxSvc = new TestDddSdk.XxxApi(); // Allocate the API class we're going to use.
-* var yyyModel = new TestDddSdk.Yyy(); // Construct a model instance.
+* var AmazingApiRestApiSdk = require('index'); // See note below*.
+* var xxxSvc = new AmazingApiRestApiSdk.XxxApi(); // Allocate the API class we're going to use.
+* var yyyModel = new AmazingApiRestApiSdk.Yyy(); // Construct a model instance.
 * yyyModel.someProperty = 'someValue';
 * ...
 * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.
@@ -60,8 +60,8 @@ import DefaultApi from './api/DefaultApi';
 * <p>
 * A non-AMD browser application (discouraged) might do something like this:
 * <pre>
-* var xxxSvc = new TestDddSdk.XxxApi(); // Allocate the API class we're going to use.
-* var yyy = new TestDddSdk.Yyy(); // Construct a model instance.
+* var xxxSvc = new AmazingApiRestApiSdk.XxxApi(); // Allocate the API class we're going to use.
+* var yyy = new AmazingApiRestApiSdk.Yyy(); // Construct a model instance.
 * yyyModel.someProperty = 'someValue';
 * ...
 * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.
@@ -69,7 +69,7 @@ import DefaultApi from './api/DefaultApi';
 * </pre>
 * </p>
 * @module index
-* @version 1.0.0
+* @version 1.0.1
 */
 export {
     /**

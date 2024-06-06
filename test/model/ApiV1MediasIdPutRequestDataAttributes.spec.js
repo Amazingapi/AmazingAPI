@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.TestDddSdk);
+    factory(root.expect, root.AmazingApiRestApiSdk);
   }
-}(this, function(expect, TestDddSdk) {
+}(this, function(expect, AmazingApiRestApiSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new TestDddSdk.ApiV1MediasIdPutRequestDataAttributes();
+    instance = new AmazingApiRestApiSdk.ApiV1MediasIdPutRequestDataAttributes();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,19 +50,19 @@
   describe('ApiV1MediasIdPutRequestDataAttributes', function() {
     it('should create an instance of ApiV1MediasIdPutRequestDataAttributes', function() {
       // uncomment below and update the code to test ApiV1MediasIdPutRequestDataAttributes
-      //var instance = new TestDddSdk.ApiV1MediasIdPutRequestDataAttributes();
-      //expect(instance).to.be.a(TestDddSdk.ApiV1MediasIdPutRequestDataAttributes);
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasIdPutRequestDataAttributes();
+      //expect(instance).to.be.a(AmazingApiRestApiSdk.ApiV1MediasIdPutRequestDataAttributes);
     });
 
     it('should have the property description (base name: "description")', function() {
       // uncomment below and update the code to test the property description
-      //var instance = new TestDddSdk.ApiV1MediasIdPutRequestDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasIdPutRequestDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property name (base name: "name")', function() {
       // uncomment below and update the code to test the property name
-      //var instance = new TestDddSdk.ApiV1MediasIdPutRequestDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasIdPutRequestDataAttributes();
       //expect(instance).to.be();
     });
 

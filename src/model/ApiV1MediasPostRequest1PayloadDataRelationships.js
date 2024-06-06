@@ -17,7 +17,7 @@ import ApiV1MediasPostRequest1PayloadDataRelationshipsClips from './ApiV1MediasP
 /**
  * The ApiV1MediasPostRequest1PayloadDataRelationships model module.
  * @module model/ApiV1MediasPostRequest1PayloadDataRelationships
- * @version 1.0.0
+ * @version 1.0.1
  */
 class ApiV1MediasPostRequest1PayloadDataRelationships {
     /**

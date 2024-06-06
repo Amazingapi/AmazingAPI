@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.TestDddSdk);
+    factory(root.expect, root.AmazingApiRestApiSdk);
   }
-}(this, function(expect, TestDddSdk) {
+}(this, function(expect, AmazingApiRestApiSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
+    instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,97 +50,97 @@
   describe('ApiV1MediasPostRequest1PayloadDataAttributes', function() {
     it('should create an instance of ApiV1MediasPostRequest1PayloadDataAttributes', function() {
       // uncomment below and update the code to test ApiV1MediasPostRequest1PayloadDataAttributes
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
-      //expect(instance).to.be.a(TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes);
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
+      //expect(instance).to.be.a(AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes);
     });
 
     it('should have the property createdAt (base name: "created_at")', function() {
       // uncomment below and update the code to test the property createdAt
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property description (base name: "description")', function() {
       // uncomment below and update the code to test the property description
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property externalId (base name: "external_id")', function() {
       // uncomment below and update the code to test the property externalId
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property hasFetchError (base name: "has_fetch_error")', function() {
       // uncomment below and update the code to test the property hasFetchError
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property isProcessing (base name: "is_processing")', function() {
       // uncomment below and update the code to test the property isProcessing
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property name (base name: "name")', function() {
       // uncomment below and update the code to test the property name
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property originalCreatedAt (base name: "original_created_at")', function() {
       // uncomment below and update the code to test the property originalCreatedAt
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property processingStartedAt (base name: "processing_started_at")', function() {
       // uncomment below and update the code to test the property processingStartedAt
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property sourceCreatedAt (base name: "source_created_at")', function() {
       // uncomment below and update the code to test the property sourceCreatedAt
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property sourceFileContentType (base name: "source_file_content_type")', function() {
       // uncomment below and update the code to test the property sourceFileContentType
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property sourceFileDuration (base name: "source_file_duration")', function() {
       // uncomment below and update the code to test the property sourceFileDuration
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property sourceFileHeight (base name: "source_file_height")', function() {
       // uncomment below and update the code to test the property sourceFileHeight
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property sourceFilePreviewImageUrl (base name: "source_file_preview_image_url")', function() {
       // uncomment below and update the code to test the property sourceFilePreviewImageUrl
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property sourceFileWidth (base name: "source_file_width")', function() {
       // uncomment below and update the code to test the property sourceFileWidth
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property sourceUrl (base name: "source_url")', function() {
       // uncomment below and update the code to test the property sourceUrl
-      //var instance = new TestDddSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1MediasPostRequest1PayloadDataAttributes();
       //expect(instance).to.be();
     });
 

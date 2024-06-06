@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.TestDddSdk);
+    factory(root.expect, root.AmazingApiRestApiSdk);
   }
-}(this, function(expect, TestDddSdk) {
+}(this, function(expect, AmazingApiRestApiSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new TestDddSdk.ApiV1WebhookSubscriptionsPostRequestDataAttributes();
+    instance = new AmazingApiRestApiSdk.ApiV1WebhookSubscriptionsPostRequestDataAttributes();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,19 +50,19 @@
   describe('ApiV1WebhookSubscriptionsPostRequestDataAttributes', function() {
     it('should create an instance of ApiV1WebhookSubscriptionsPostRequestDataAttributes', function() {
       // uncomment below and update the code to test ApiV1WebhookSubscriptionsPostRequestDataAttributes
-      //var instance = new TestDddSdk.ApiV1WebhookSubscriptionsPostRequestDataAttributes();
-      //expect(instance).to.be.a(TestDddSdk.ApiV1WebhookSubscriptionsPostRequestDataAttributes);
+      //var instance = new AmazingApiRestApiSdk.ApiV1WebhookSubscriptionsPostRequestDataAttributes();
+      //expect(instance).to.be.a(AmazingApiRestApiSdk.ApiV1WebhookSubscriptionsPostRequestDataAttributes);
     });
 
     it('should have the property subscribedEvents (base name: "subscribed_events")', function() {
       // uncomment below and update the code to test the property subscribedEvents
-      //var instance = new TestDddSdk.ApiV1WebhookSubscriptionsPostRequestDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1WebhookSubscriptionsPostRequestDataAttributes();
       //expect(instance).to.be();
     });
 
     it('should have the property url (base name: "url")', function() {
       // uncomment below and update the code to test the property url
-      //var instance = new TestDddSdk.ApiV1WebhookSubscriptionsPostRequestDataAttributes();
+      //var instance = new AmazingApiRestApiSdk.ApiV1WebhookSubscriptionsPostRequestDataAttributes();
       //expect(instance).to.be();
     });
 

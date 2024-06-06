@@ -17,7 +17,7 @@ import ApiV1ClipsPostRequestData from './ApiV1ClipsPostRequestData';
 /**
  * The ApiV1ClipsPostRequest model module.
  * @module model/ApiV1ClipsPostRequest
- * @version 1.0.0
+ * @version 1.0.1
  */
 class ApiV1ClipsPostRequest {
     /**

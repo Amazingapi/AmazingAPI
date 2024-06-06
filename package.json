@@ -1,6 +1,6 @@
 {
-  "name": "test_ddd_sdk",
-  "version": "1.0.0",
+  "name": "amazing_api_rest_api_sdk",
+  "version": "1.0.1",
   "description": "",
   "license": "Unlicense",
   "main": "dist/index.js",

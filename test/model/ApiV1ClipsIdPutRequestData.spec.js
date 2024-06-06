@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.TestDddSdk);
+    factory(root.expect, root.AmazingApiRestApiSdk);
   }
-}(this, function(expect, TestDddSdk) {
+}(this, function(expect, AmazingApiRestApiSdk) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new TestDddSdk.ApiV1ClipsIdPutRequestData();
+    instance = new AmazingApiRestApiSdk.ApiV1ClipsIdPutRequestData();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,13 +50,13 @@
   describe('ApiV1ClipsIdPutRequestData', function() {
     it('should create an instance of ApiV1ClipsIdPutRequestData', function() {
       // uncomment below and update the code to test ApiV1ClipsIdPutRequestData
-      //var instance = new TestDddSdk.ApiV1ClipsIdPutRequestData();
-      //expect(instance).to.be.a(TestDddSdk.ApiV1ClipsIdPutRequestData);
+      //var instance = new AmazingApiRestApiSdk.ApiV1ClipsIdPutRequestData();
+      //expect(instance).to.be.a(AmazingApiRestApiSdk.ApiV1ClipsIdPutRequestData);
     });
 
     it('should have the property attributes (base name: "attributes")', function() {
       // uncomment below and update the code to test the property attributes
-      //var instance = new TestDddSdk.ApiV1ClipsIdPutRequestData();
+      //var instance = new AmazingApiRestApiSdk.ApiV1ClipsIdPutRequestData();
       //expect(instance).to.be();
     });
 

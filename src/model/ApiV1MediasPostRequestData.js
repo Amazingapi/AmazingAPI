@@ -17,7 +17,7 @@ import ApiV1MediasPostRequestDataAttributes from './ApiV1MediasPostRequestDataAt
 /**
  * The ApiV1MediasPostRequestData model module.
  * @module model/ApiV1MediasPostRequestData
- * @version 1.0.0
+ * @version 1.0.1
  */
 class ApiV1MediasPostRequestData {
     /**
